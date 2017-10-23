@@ -1,0 +1,34 @@
+body{
+font-family: sans-serif;
+}
+nav{
+  /*outline: 1px solid blue;*/
+}
+ul{
+  /*outline: 1px solid red;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #2e2e2a;
+  line-height: 35px;
+  /*devolver contexto de bloque*/
+  overflow: auto;
+}
+li{
+  /*outline: 1px solid red;*/
+  width: 100px;
+  /*display: inline-block;*/
+  float: left;
+  text-align: center;
+}
+a{
+/*  outline: 1px solid red;*/
+  text-decoration: none;
+  color: #fff;
+  display: block
+}
+
+a:hover{
+background:#f9a91a;
+color:#fff;
+}
